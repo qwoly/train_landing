@@ -37,3 +37,58 @@ header img{
     white-space: nowrap;
     opacity: 0.5;
 }
+/* /sellnft start */
+.section__sellNft{
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+.section__sellNft h1{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px; 
+    color: #000000;
+    text-align: center;
+    text-shadow: -5px 5px 0px #FFFFFF;
+    padding-top: 117px;
+    margin: 0 auto;
+}
+.section__sellNft p{
+    padding-top: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;      
+    color: #532C59;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.section__sellNft button{
+    margin: 0 auto;
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #532C59;
+    border-radius: 15px;
+    width: 114px;
+    height: 52px;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.sellNft-bg {
+    position: absolute;
+    width: 1440px;
+    height: 499px;
+    left: 0px;
+    top: 57px;
+    background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.4;
+    filter: blur(116px);    
+    z-index: -1;
+}
