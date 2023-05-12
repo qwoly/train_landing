@@ -42,6 +42,8 @@ header img{
     display: flex;
     flex-flow: column;
     position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .section__sellNft h1{
     font-weight: 700;
@@ -91,4 +93,113 @@ header img{
     opacity: 0.4;
     filter: blur(116px);    
     z-index: -1;
+}
+.section__sellNft img{
+
+}
+.sellNft_img3{
+    position: absolute;
+    width: 173px;
+height: 174px;
+left: 53px;
+top: 5px; 
+}
+.sellNft_img4{
+    position: absolute;
+    width: 111px;
+    height: 112px;
+    right: 167px;
+    top: 67px;
+}
+.sellNft_img2{
+    position: absolute;
+    width: 299px;
+    height: 300px;
+    left: -16px;
+    top: 298px;
+}
+.sellNft_img1{
+    position: absolute;
+    width: 211px;
+    height: 211px;
+    right: 33px;
+    top: 387px;
+}
+/* section_partners */
+.section__partners{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    margin: 0 auto;
+    margin-top: 101px;
+    max-width: 1440px;
+
+}
+.section__partners img{
+    margin-right: 40px;
+}
+.section__partners img:last-child{
+    margin-right: 0px;
+}
+/* our team */
+.section__team{
+    display: flex;
+    flex-flow: column;
+    margin-top: 80px;
+}
+.section__team h2{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.section__team h3{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    margin: 0;
+    padding-bottom: 80px;
+}
+/* section_team starrt */
+.wrapper_team{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 160px;
+}
+.team__wrapper{
+    display: flex;
+    flex-flow: column;
+    margin: 0 100px;
+}
+.team__wrapper p{
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin: 12px 0;
+    white-space: nowrap;
+}
+.team__wrapper span{
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+}
+.team__wrapper img{
+    Width: 80px;
+    Height: 80px;
+    margin: 0 auto;
 }
