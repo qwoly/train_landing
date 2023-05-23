@@ -20,6 +20,7 @@ header {
 header img{
     width: 151px;
     height: 40px;
+    margin-left: 23px;
     margin-right: 32px;
     /* margin: 18px auto; */
 }
@@ -126,6 +127,9 @@ top: 5px;
     top: 387px;
 }
 /* section_partners */
+.wrapper2{
+
+}
 .section__partners{
     display: flex;
     justify-content: center;
@@ -155,6 +159,7 @@ top: 5px;
     line-height: 64px;
     color: #000000;
     text-align: center;
+    margin: 0;
     margin-bottom: 24px;
 }
 .nft__h3{
@@ -175,12 +180,12 @@ top: 5px;
     max-width: 1440px;
     text-align: center;
     margin: 0 auto;
+    padding: 0 70px;
     padding-bottom: 160px;
 }
 .team__wrapper{
     display: flex;
     flex-flow: column;
-    margin: 0 100px;
 }
 .team__wrapper p{
     font-family: 'Space Grotesk';
@@ -212,7 +217,8 @@ top: 5px;
     line-height: 64px;
     color: #000000;
     text-align: center;
-    margin-bottom: 16px;
+    margin: 0;
+    padding-bottom: 16px;
 }
 .collection__h3{
     font-family: 'Space Grotesk';
@@ -234,6 +240,7 @@ top: 5px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    /* margin-bottom: 150px; */
 }
 .collection__wrapper{
     display: flex;
@@ -263,4 +270,99 @@ top: 5px;
     color: #532C59;
     margin: 0px;
     padding-bottom: 64px;
+}
+/* provide section start*/
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 184px;
+    max-width: 1440px;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.provide__wrapper p{
+    font-family: 'Space Grotesk';  
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+.provide__wrapper span{
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #532C59;
+}
+.provide__wrapper{
+    width: 301px;
+    padding-right: 32px;
+}
+.section__provide>.collection__h3{
+    padding-bottom: 60px;
+}
+/* start Testimonials*/
+.section__Testimonials>.collection__h2{
+    padding-bottom: 80px;
+}
+.card-holder{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 70px;
+   
+}
+.section__Testimonials{
+    display: flex;
+    flex-flow: column;
+}
+.twitter-card{
+    padding: 24px;
+    width: 412px;
+    border: 1px solid #D6BCFA;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    text-shadow: -5px 5px 0px #ececec60;
+}
+.twitter-card .headertw{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.user-icon{
+    margin-right: 8px;
+}
+.name{
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.username{
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+}
+.centertw p{
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+    margin: 0;
+    padding-top: 16px;
+    white-space: nowrap;
 }
