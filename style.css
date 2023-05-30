@@ -102,9 +102,9 @@ header img{
 .sellNft_img3{
     position: absolute;
     width: 173px;
-height: 174px;
-left: 53px;
-top: 5px; 
+    height: 174px;
+    left: 53px;
+    top: 5px; 
 }
 .sellNft_img4{
     position: absolute;
@@ -585,4 +585,18 @@ footer .bottom{
     .team__wrapper p{
         white-space: 0;
 }
+}
+@media (max-width: 1203px){
+    .sellNft_img3{
+    display: none;
+    }
+    .sellNft_img4{
+    display: none; 
+    }
+    .sellNft_img2{
+    display: none;       
+}
+    .sellNft_img1 {
+    display: none;
+    }
 }
